@@ -1,0 +1,43 @@
+	section.first{
+		background:#a0a0a0;
+	
+}
+
+h1{
+	color: #FFFFFF;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 200%;
+}
+a:link{
+	color: #000000;
+	background: #d3d3d3;
+	font-weight: bold;
+}	
+a:visited{
+	color: #00FF00;
+	background: #d3d3d3;
+	font-weight: bold;
+}	
+
+section.second{
+	background:#808888;
+}
+	
+	
+h2{
+	color: #00008B;
+	font-weight: bold;
+	font-size: 175%;
+	text-transform: uppercase;
+	text-indent: -999px;
+}
+p{
+	font-style: normal;
+	font-weight: bold;
+	text-align: left;
+	font-family:serif;
+	font-size: 120%;
+
+}
+

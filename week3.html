@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Transitions and Transforms</title>
+	<style type="text/css">
+		div{
+			display: inline-block;
+			width: 100px;
+			height: 70px;
+			padding-bottom: 5px;
+			border:1px solid #000000;
+			margin: 2%;
+			border-radius: 5px;
+			transition-timing-function: 5s ;
+		}
+		div:focus{
+			background-color: #000000;
+		}
+		div:hover{
+			width: 200px;
+			background-color: #800040;
+		}
+		#nine{
+			background-color: #ffff00;
+			border-radius: 5px;
+			transform: skew(30deg,15deg);
+		}
+		#nine:hover{
+			background: #ff0000;
+			border-radius: 10px;
+			transform: rotate(360deg);
+		}
+	</style>
+</head>
+<body>
+	<div class="first">A</div>
+	<div class="second">B</div>
+	<div class="third">C</div>
+	<div class="fourth">D</div>
+	<div class="fifth">E</div>
+	<div class="sixth">F</div>
+	<div class="seventh">G</div>
+	<div class="eigthth">H</div>
+	<div class="ninth" id="nine">I</div>
+</body>
+</html>

@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calender</title>
+	<style type="text/css">
+		table{
+			border:2px solid #000000;
+			width: 600px;
+			height:300px;
+			text-align: center;
+			border-radius: 0px 0px 25px 25px;
+			border-spacing: 0px;
+		}
+		caption{
+			background: #f0f0f0;
+			font-size: 30px;
+			border-radius: 25px 25px 0px 0px;
+			border-top:2px solid #000000;
+			border-left: 2px solid #000000;
+			border-right: 2px solid #000000;
+		}
+		tr:nth-child(even){
+			background: #00ff00;
+
+		}
+		
+		tr:nth-child(odd){
+			background:#a1a1a1;
+			
+		}
+		tr:last-child>td:last-child{
+			border-radius: 0px 0px 25px 0px;
+			background: #0000ff;
+		}
+		tr:last-child>td:last-child{
+			border-radius: 0px 0px 25px 0px;
+		}
+		th{
+			background-color: #ffffff;
+			border-bottom: 2px solid #000000;
+			padding-bottom: 10px;
+			padding-top: 10px;
+			font-size: 20px;
+			text-align: center;
+		}
+		span{
+			visibility: hidden;
+			display: block;
+			text-align: center;
+			color: #808080; 
+			width: 10px;
+			height: 5px;
+		}
+		td:active>span{
+			visibility: visible;
+			color: #ff0000;	
+		}
+		td{
+			width: 10px;
+			height: 5px;
+			vertical-align: top;
+		}
+		tr:last-child>td:first-child{
+			border-radius: 0px 0px 0px 25px;
+		}
+		.last{
+			background: #a06756;
+		}
+		
+	</style>
+</head>
+<body>
+	<table>
+		<caption>Oct 2015</caption>
+		<thead>
+			<tr class="days">
+				<th>Sun</th>
+				<th>Mon</th>
+				<th>Tue</th>
+				<th>Wed</th>
+				<th>Thu</th>
+				<th>Fri</th>
+				<th>Sat</th>
+			</tr>
+		</thead>
+		<tbody>
+			<div>
+			<tr class="odd">
+				<td class="last">27</td>
+				<td class="last">28</td>
+				<td class="last">29</td>
+				<td class="last">30</td>
+				<td>1</td>
+				<td class="special1">2</td>
+				<td>3</td>
+			</tr>
+		</div>
+			<tr class="even">
+				<td>4</td>
+				<td>5</td>
+				<td class="special2">6</td>
+				<td>7</td>
+				<td>8</td>
+				<td>9</td>
+				<td>10</td>
+			</tr>
+			<tr class="odd">
+				<td>11</td>
+				<td>12</td>
+				<td class="special">13*<span>
+				Library Helper</span></td>
+				<td>14</td>
+				<td>15</td>
+				<td>16</td>
+				<td>17</td>
+			</tr>
+			<tr class="even">
+				<td>18</td>
+				<td>19</td>
+				<td>20</td>
+				<td>21</td>
+				<td>22</td>
+				<td>23</td>
+				<td>24</td>
+			</tr>
+			<tr class="last1">
+				<td>25</td>
+				<td>26</td>
+				<td>27</td>
+				<td>28</td>
+				<td>29</td>
+				<td>30</td>
+				<td class="end">31</td>
+			</tr>
+		</tbody>
+	</table>
+
+</body>
+</html>

@@ -1,0 +1,45 @@
+h1{
+	color: rgba(125,0,0,1);
+	text-shadow: 2px 2px 3px #666666;
+	padding-top:100px;
+}
+a:link{
+	color: #000000;
+	text-decoration:blink;
+}
+a:visited{
+	color:#FF0000;
+	text-decoration:none;
+}
+a:focus{
+	color:#000000;
+}
+
+h2{
+	text-transform: uppercase;
+	color: #0088dd;
+	
+	font-weight: normal;
+}
+p.intro:first-line{
+	font-weight: bold;
+}
+p.intro:first-letter{
+	font-size: 200%
+}
+a.breed{
+	color: #0000ff;
+}
+h3{
+	color: #0000ff;
+}
+p[class=first].box{
+	text-align: left;
+	font-stretch:condensed;
+	font-size: 18px;
+
+	background: #00FF00;
+	width: 25%;
+	height: 25%;	
+}
+

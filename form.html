@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My first form</title>
+</head>
+<body>
+	<form action="http://www.example.com/review.php" method="post">
+		<fieldset>
+			<legend>Your Details:</legend>
+			<label>Name:<input type="text" name="username"></label>
+			<br>
+			<br>
+			<label>Email:<input type="text" name="email"></label>
+		</fieldset>
+		<fieldset>
+			<legend>Your Review:</legend>
+			<label>How did you hear about this?</label>
+			<select name="source">
+				<option value="google">Google</option>
+				<option value="wikipedia">Wikipedia</option>
+				<option value="through friend">Through friend</option>
+				
+			</select>
+			<br>
+			<p>Would you visit again?
+				<br>
+				<input type="radio" name="answer" value="yes">Yes
+				<input type="radio" name="answer" value="no">No
+				<input type="radio" name="answer" value="may be">May be
+
+			</p>
+			<label>Comments:</label><br>
+				<textarea name="Comments" cols="20" rows="5"></textarea><br>
+			<label><input type="checkbox" name="subscribe" checked="checked">Sign me up for email updates</label><br>
+			<input type="submit" value="submit"/>
+
+		</fieldset>
+		
+	</form>
+
+</body>
+</html>
